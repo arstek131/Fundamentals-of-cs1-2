@@ -1,2 +1,2 @@
-# Fundamentals-of-cs1
-Random exercises in C from Fundamentals of computer science 1 course
+# Fundamentals-of-cs1 and 2
+Random exercises in C from Fundamentals of computer science 1 and 2 courses
