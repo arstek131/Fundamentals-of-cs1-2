@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 20\es4\main.c(10): warning C4047: 'function': 'size_t *' differs in levels of indirection from 'size_t **'
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 20\es4\main.c(10): warning C4024: 'read_csv': different types for formal and actual parameter 2
+  es4.vcxproj -> C:\Users\Arslan\Desktop\UNI\Fondamenti 1\C (teoria, es)\ESERCITAZIONI IMAGELAB\Esame 20\es4\Debug\es4.exe

@@ -1,0 +1,4 @@
+﻿  parole.c
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 20\es3\parole.c(225): warning C4047: 'function': 'char *' differs in levels of indirection from 'char'
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 20\es3\parole.c(225): warning C4024: 'PrinciPalFun': different types for formal and actual parameter 1
+  Es3.vcxproj -> C:\Users\Arslan\Desktop\UNI\Fondamenti 1\C (teoria, es)\ESERCITAZIONI IMAGELAB\Esame 20\Es3\Debug\Es3.exe

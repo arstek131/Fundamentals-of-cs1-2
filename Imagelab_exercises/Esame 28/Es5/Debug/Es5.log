@@ -1,0 +1,5 @@
+﻿  matrix.c
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 28\es5\matrix.c(58): warning C4018: '<': signed/unsigned mismatch
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 28\es5\matrix.c(72): warning C4013: 'flcose' undefined; assuming extern returning int
+matrix.obj : error LNK2019: unresolved external symbol _flcose referenced in function _leggi_matrici
+C:\Users\Arslan\Desktop\UNI\Fondamenti 1\C (teoria, es)\ESERCITAZIONI IMAGELAB\Esame 28\Es5\Debug\Es5.exe : fatal error LNK1120: 1 unresolved externals

@@ -1,0 +1,4 @@
+﻿  croce.c
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 22\es2\croce.c(17): warning C4047: 'function': 'const char *const ' differs in levels of indirection from 'int'
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 22\es2\croce.c(17): warning C4024: 'printf': different types for formal and actual parameter 1
+  Es2.vcxproj -> C:\Users\Arslan\Desktop\UNI\Fondamenti 1\C (teoria, es)\ESERCITAZIONI IMAGELAB\Esame 22\Es2\Debug\Es2.exe

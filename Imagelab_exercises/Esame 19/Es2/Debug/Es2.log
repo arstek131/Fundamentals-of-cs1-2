@@ -1,0 +1,5 @@
+﻿  matrix.c
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 19\es2\matrix.c(52): warning C4133: 'return': incompatible types - from 'mat *' to 'matrix *'
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 19\es2\matrix.c(51): warning C4133: 'initializing': incompatible types - from 'matrix *' to 'mat *'
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 19\es2\matrix.c(82): warning C4715: 'mat_creatediag': not all control paths return a value
+  Es2.vcxproj -> C:\Users\Arslan\Desktop\UNI\Fondamenti 1\C (teoria, es)\ESERCITAZIONI IMAGELAB\Esame 19\Es2\Debug\Es2.exe

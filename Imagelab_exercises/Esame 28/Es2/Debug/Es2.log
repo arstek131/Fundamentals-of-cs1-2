@@ -1,0 +1,7 @@
+﻿  persona.c
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 28\es2\persona.c(12): warning C4022: 'fwrite': pointer mismatch for actual parameter 1
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 28\es2\persona.c(13): warning C4022: 'fwrite': pointer mismatch for actual parameter 1
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 28\es2\persona.c(14): error C2100: illegal indirection
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 28\es2\persona.c(14): warning C4022: 'fwrite': pointer mismatch for actual parameter 1
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 28\es2\persona.c(15): error C2100: illegal indirection
+c:\users\arslan\desktop\uni\fondamenti 1\c (teoria, es)\esercitazioni imagelab\esame 28\es2\persona.c(15): warning C4022: 'fwrite': pointer mismatch for actual parameter 1
