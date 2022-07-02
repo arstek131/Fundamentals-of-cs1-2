@@ -1,0 +1,80 @@
+a   b   c   d   e   f   g   h
+
+
+Parto col confrontare 2 elementi adiacenti a e b.
+ Se a>b allora scambio b con a quindi...
+
+
+b   a   c   d   e   f   g   h
+
+
+Confronto poi i 2 prossimi adiacenti, quindi a e c.
+ Se a>c allora scambio c con a quindi...
+
+
+b   c   a   d   e   f   g   h
+
+
+Se dovessi incontrare un elemento più grande di a, allora questo diventerà elemento di confronto per le coppie adiacenti. 
+Quindi a una "prima passata" dell'algoritmo l'elemento più grande andrà infondo.
+
+Faccio così N-1 (al massimo) di passate.
+
+
+****************************************************************************
+
+for(i=0; i<n-1; i++)
+
+{
+	
+	for(j=0; j<n-1-i; j++)
+	
+	{
+			
+		if(a[j]>a[j+1])
+			
+		{
+				
+			temp=a[j];
+				
+			a[j]=a[j+1];
+				
+			a[j+1]=temp;
+			
+		}
+					
+	
+	}
+		
+
+}
+
+
+****************************************************************************
+
+Esiste anche una versione ottimizzata, dove non vado più a considerare la sottosequenza di destra già completata (quella dove stanno i numeri dal decrescente in poi), ma solo la sottosequenza di sinistra (ancora disordinata)
+
+****************************************************************************
+
+ int lastSwap= (sizeof(a) / sizeof(a[0]))-1; //Replace with N-1
+
+    for(int i=1; (i<sizeof(a) / sizeof(a[0]))/*Replace with N-1*/; i++)
+    {
+        bool is_sorted=true;
+        int currentSwap = -1;
+
+            for(int j=0; j < lastSwap; j++)
+            {
+                    if(a[j] > a[j+1])
+                    {
+                     int temp = a[j];
+                     a[j] = a[j+1];
+                     a[j+1] = temp;
+                     is_sorted = false;
+                     currentSwap = j;
+                    }
+            }
+            if(is_sorted) break;
+            lastSwap = currentSwap;
+
+    }

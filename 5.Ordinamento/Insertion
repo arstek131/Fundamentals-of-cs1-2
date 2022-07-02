@@ -1,0 +1,56 @@
+﻿A=4	B=1	C=7	D=6	E=3	F=5	G=2	
+
+
+Parto considerando i primi due indici (quindi A e B), prendo e sposto
+verso sinistra l'elemento più piccolo, quindi...
+
+
+B=1	A=4	C=7	D=6	E=3	F=5	G=2	
+
+
+Considero ora i due indici successivi (quindi A e C), 4<7? 
+Si quindi va bene così. 
+
+Passo successivo, considero gli indici (C e D) 6<7? 
+(ma maggiore del 4)
+
+Si allora sposto 
+
+B=1	A=4	D=6	C=7	E=3	F=5	G=2
+
+
+Passo successivo, considero gli indici (C e E) 3<7? 
+
+Si allora scambio 
+
+B=1	A=4	D=6	E=3	C=7	F=5	G=2
+
+ 
+Ma 3<6?
+Si allora scambio
+
+ B=1	A=4	E=3	D=6	C=7	F=5	G=2
+
+ 
+Ma 4<3? 
+Si allora scambio 
+
+B=1	E=3	A=4	D=6	C=7	F=5	G=2
+
+3<1? 
+No, allora riprendo da (C e F)--> ed eseguo la catena per il 5 finchè non è nella posizione corretta
+
+Quindi tendo a spostare man mano gli elementi verso sinistra 
+
+for(i=1; i<n; i++)
+	{
+		temp=a[i];
+		j=i-1;
+		while(j>=0 && a[j]>temp)
+		{
+			a[j+1]=a[j];
+           			 j=j-1;
+		}
+		a[j+1]=temp;
+	}
+

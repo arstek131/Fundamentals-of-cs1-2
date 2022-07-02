@@ -1,0 +1,35 @@
+void swap(int* a, int* b)
+{
+    int t = *a;
+    *a = *b;
+    *b = t;
+}
+
+void quicksort(int v[], int first, int last) //last è sempre N-1
+{
+    int i, j, pivot;
+    if(first<last)
+    {
+        i=first;
+        j=last;
+        pivot=v[(first+last)/2];
+
+        do
+        {
+            while(v[i]<pivot)
+                i++;
+            while(v[j]>pivot)
+                j--;
+            if(i<=j)
+            {
+                swap(&v[i],&v[j]);
+                i++;
+                j--;
+            }
+        }while(i<=j);
+
+    quicksort(v,first,j);
+    quicksort(v,i,last);
+    }
+
+}

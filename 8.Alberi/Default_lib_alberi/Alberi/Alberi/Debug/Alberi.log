@@ -1,0 +1,7 @@
+﻿  main.c
+\\mac\home\desktop\re-import\uni_(linux)\1 anno\fondamenti 2\8.alberi\default_lib_alberi\alberi\alberi\main.c(50): warning C4013: 'ContaDominanti' undefined; assuming extern returning int
+  tree.c
+\\mac\home\desktop\re-import\uni_(linux)\1 anno\fondamenti 2\8.alberi\default_lib_alberi\alberi\alberi\tree.c(123): warning C4018: '<=': signed/unsigned mismatch
+\\mac\home\desktop\re-import\uni_(linux)\1 anno\fondamenti 2\8.alberi\default_lib_alberi\alberi\alberi\tree.c(347): warning C4101: 'i': unreferenced local variable
+  Generating Code...
+  Alberi.vcxproj -> \\Mac\Home\Desktop\RE-IMPORT\UNI_(linux)\1 ANNO\Fondamenti 2\8.Alberi\Default_lib_alberi\Alberi\Debug\Alberi.exe

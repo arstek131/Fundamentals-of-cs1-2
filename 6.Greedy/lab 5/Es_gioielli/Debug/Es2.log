@@ -1,0 +1,5 @@
+﻿  main.c
+c:\users\241293\desktop\greedy\es2\main.c(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: see declaration of 'scanf'
+  Es2.vcxproj -> C:\Users\241293\Desktop\Greedy\Es2\Debug\Es2.exe
+  Es2.vcxproj -> C:\Users\241293\Desktop\Greedy\Es2\Debug\Es2.pdb (Partial PDB)

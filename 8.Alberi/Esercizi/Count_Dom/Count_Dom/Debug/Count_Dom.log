@@ -1,0 +1,6 @@
+﻿  main.c
+  tree.c
+\\mac\home\desktop\re-import\uni (linux)\fondamenti 2\8.alberi\esercizi\count_dom\count_dom\tree.c(123): warning C4018: '<=': errata corrispondenza tra signed e unsigned
+  Generazione del codice in corso...
+\\mac\home\desktop\re-import\uni (linux)\fondamenti 2\8.alberi\esercizi\count_dom\count_dom\tree.c(310): warning C4715: 'ContaDominanti': non tutti i percorsi di controllo restituiscono un valore
+  Count_Dom.vcxproj -> \\Mac\Home\Desktop\RE-IMPORT\UNI (linux)\Fondamenti 2\8.Alberi\Esercizi\Count_Dom\Debug\Count_Dom.exe
